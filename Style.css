@@ -34,13 +34,16 @@ nav{
 }
 nav .all{
     display: flex;
-    
+    margin: 2vh;
+    gap: 1vh;
 }
 nav .language {
     width: 13vh;
     height: 4vh;
     background-color: rgba(23, 23 ,23, 0.7);
-    margin: 2vh;
+    border-radius: 6px;
+    border: 1px solid white;
+    
 }
 nav .language h5{
     color: rgb(255, 255, 255);
@@ -52,7 +55,8 @@ nav .sign{
     height: 4vh;
     background: red;
     opacity: 1;
-    margin: 2vh;
+    border-radius: 6px;
+    border: 1px solid white;
 }
 nav .sign h5{
     color: rgb(255, 255, 255);
@@ -91,10 +95,67 @@ nav .sign h5{
 .hero .input span button{
 background-color: red;
 font-size: 20px;
+font-weight: 600;
 color: white;
 padding: 4px;
 }
 .seperation{
     height: 8px;
     background: rgb(62, 62, 62);
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12vw;
+}
+.text{
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50vw;
+    margin-top: 10vw;
+    
+}
+.text h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.text h4{
+    font-size: x-large;
+}
+.box1 .image img{
+    position: absolute;
+    z-index: 0;
+}
+.box1 .image video{
+   position: relative;
+   left: 46px;
+   top: 68px;
+   border-radius: 6px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    margin: 8vw;
+}
+.box2 .text h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 12vw;
+}
+.box3 .image img{
+    position: absolute;
+}
+.box3 .image video{
+    position: relative;
+    top: 97px;
+    left: 80px;
+    border-radius: 8px;
 }
