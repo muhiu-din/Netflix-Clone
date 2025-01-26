@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url("Assets/bg.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    height: 80vh;
+    position: relative;
+    
+    
+}
+
+.main .box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.44;
+    background: #000;
+}
+.logo img{
+    width: 15vh;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .all{
+    display: flex;
+    
+}
+nav .language {
+    width: 13vh;
+    height: 4vh;
+    background-color: rgb(107, 105, 105);
+    margin: 2vh;
+}
+nav .language h5{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+    margin-top: 4px;
+}
+nav .sign{
+    width: 13vh;
+    height: 4vh;
+    background: red;
+    opacity: 1;
+    margin: 2vh;
+}
+nav .sign h5{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+    margin-top: 4px;
+}
