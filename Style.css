@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #000;
 }
 
 .main {
@@ -10,8 +14,6 @@
     background-size: max(1000px,100vw);
     height: 80vh;
     position: relative;
-    
-    
 }
 
 .main .box {
@@ -19,7 +21,7 @@
     width: 100%;
     position: absolute;
     top: 0;
-    opacity: 0.44;
+    opacity: 0.4;
     background: #000;
 }
 .logo img{
@@ -37,14 +39,13 @@ nav .all{
 nav .language {
     width: 13vh;
     height: 4vh;
-    background-color: rgb(107, 105, 105);
+    background-color: rgba(23, 23 ,23, 0.7);
     margin: 2vh;
 }
 nav .language h5{
     color: rgb(255, 255, 255);
     font-size: larger;
     text-align: center;
-    margin-top: 4px;
 }
 nav .sign{
     width: 13vh;
@@ -57,5 +58,43 @@ nav .sign h5{
     color: rgb(255, 255, 255);
     font-size: larger;
     text-align: center;
-    margin-top: 4px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20vh;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.hero .input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vh;
+    margin: 2vh;
+}
+.hero .input div input{
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    background: rgba(23, 23, 23 ,0.7);
+    border: 1px solid rgba(255, 255, 255,0.5);
+}
+.hero .input div input::placeholder{
+    color: white;
+}
+.hero .input span button{
+background-color: red;
+font-size: 20px;
+color: white;
+padding: 4px;
+}
+.seperation{
+    height: 8px;
+    background: rgb(62, 62, 62);
 }
