@@ -1,3 +1,28 @@
+@media screen and (max-width: 1000px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero h4{
+        font-size: 15px;
+    }
+    .boxes h1{
+        font-size: 20px;
+
+    }
+    .boxes h4{
+        font-size: 10px;
+    }
+    
+    
+}
 * {
     margin: 0;
     padding: 0;
@@ -149,16 +174,16 @@ padding: 4px;
     flex-direction: row;
     justify-content: center;
     margin: 12vw;
-    height: 40vw;
+    height: 500px;
 }
 .box3 .image img{
     position: absolute;
-    right: 4vw;
+    right: 20px;
 }
 .box3 .image video{
     position: relative;
     top: 97px;
-    left: 28px;
+    left: 55px;
     border-radius: 8px;
 }
 .box4{
@@ -174,4 +199,58 @@ padding: 4px;
     color: white;
     font-size: xx-large;
     text-align: center;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+.options .query{
+    color: white;
+    background: #2e2d2d;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-between;
+    max-width: 80%;
+    margin-left: 90px;
+   
+}
+.options .query:hover{
+    cursor: pointer;
+    background: #5a5858;
+    transition: all 0.5s ease-out;
+}
+.options .query svg,span{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+footer {
+    color: white;
+     margin: 2vw;
+     max-width: 60vw;
+     height: 20vw;
+    margin: auto;
+}
+footer .question{
+    padding: 34px 0;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer-item ul li{
+list-style: none;
+font-size: 16px;
+
 }
